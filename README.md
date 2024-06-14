@@ -43,15 +43,15 @@ As imagens serão carregadas pelo ***Administrador da página*** ao banco de dad
 - Evento;
 - Descrição. 
 
-**Nossa História**:  Principal página do site, onde será contada a história da escola, seus valores, suas poesias e enredos. Podendo conter, recortes de jornais relevantes, vídeos e documentários sobre a escola, cidade e membros. Como opção de acessibilidade e entreterimento, é possivel que alguns trexos contenham músicas,vídeos e trechos narrados por  Inteligencia Artifícial.
+**Nossa História**:  Principal página do site, onde será contada a história da escola, seus valores, suas poesias e enredos. Podendo conter, recortes de jornais relevantes, vídeos e documentários sobre a escola, cidade e membros. Como opção de acessibilidade e entreterimento, é possivel que utilize músicas, vídeos e trechos narrados por Inteligencia Artifícial.
 
-Será feita uma página de acesso externa, para que uma pessoa receba o acesso a Amnistração da Página, e esta de forma intuitiva alimente a página com as novidades.
+Será feita uma página de acesso externa, para que uma pessoa receba o acesso a **Administração da Página**, e esta de forma intuitiva alimente a página com as novidades.
 
-o layout será feito com HTML, CSS e auxílio de JavaScript. Os bancos de dados, atualizações e controle de acessos por PHP.
+O layout será feito com HTML, CSS e auxílio de JavaScript. Os bancos de dados provavelmente MySQL, atualizações e controle de acessos por PHP.
 
-[!NOTE]
+**_Observacao_**
 
-O projeto pode sofrer algumas alterações durante a execução, estas serão destacadas logo após o trexe da proposta inicial.
+O projeto pode sofrer algumas alterações durante a execução, estas serão destacadas logo após o trecho da proposta inicial.
 
 
 Lista de tarefas: 
