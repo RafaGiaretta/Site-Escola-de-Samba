@@ -49,14 +49,14 @@ Será feita uma página de acesso externa, para que uma pessoa receba o acesso a
 
 o layout será feito com HTML, CSS e auxílio de JavaScript. Os bancos de dados, atualizações e controle de acessos por PHP.
 
-**_Observação_**
+[!NOTE]
 
 O projeto pode sofrer algumas alterações durante a execução, estas serão destacadas logo após o trexe da proposta inicial.
 
 
 Lista de tarefas: 
 
-- [ ]   Definir paleta de cores, fontes e padrões da página;
+- [ ]   Definir paleta de cores, fontes e padrões da página - [60%: #E2EFF4, 30%: #12556F, 10% #665f35 / #9EA7AB, #41778C, #cbbe6a ] - Fontes de Títulos Inter / Textos Space Grotesk.
 - [ ]   Criar layout / designer padrão da página;
 - [ ]   Página de Agenda;
 - [ ]   Página Notícias;
