@@ -56,7 +56,7 @@ O projeto pode sofrer algumas alterações durante a execução, estas serão de
 
 Lista de tarefas: 
 
-- [ ]   Definir paleta de cores, fontes e padrões da página - [60%: #E2EFF4, 30%: #12556F, 10% #665f35 / #9EA7AB, #41778C, #cbbe6a ] - Fontes de Títulos Inter / Textos Space Grotesk.
+- [ ]   Definir paleta de cores, fontes e padrões da página - [60%: #E2EFF4, 30%: #12556F, 10% #665f35 / #9EA7AB, #41778C, #cbbe6a ] - Fontes de Títulos "Inter"/ Textos "Lora". (#1E2959 cor dos ícones)
 - [ ]   Criar layout / designer padrão da página;
 - [ ]   Página de Agenda;
 - [ ]   Página Notícias;

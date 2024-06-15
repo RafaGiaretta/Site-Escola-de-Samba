@@ -1,17 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
-:root{
-    --cor-de-fundo:  #EBECEE;
-    --fonte-de-titulo: "Inter", sans-serif;
-    --fonte-principal:  "Space Grotesk", sans-serif;
+@import url("/styles/header.css");
+@import url("/styles/banner.css");
+@import url("/styles/carrossel.css");
 
+
+:root{
+
+    --branco: #ffffff;
+    --cor-de-fundo:  #E2EFF4;
+    --cor-de-fundo-secundaria: hsla(197, 72%, 25%, 1) ;
+    --cor-de-titulo: #12556F;
+    --cor-de-titulo-secundaria: #59889a;
+    --cor-de-acento: #665f35;
+    --cor-de-acento_secundaria: #cbbe6a;
+
+    --fonte-de-titulo: "Inter", sans-serif;
+    --fonte-principal: "Lora", serif;
 }
 
 body{
     background-color: var(--cor-de-fundo);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--fonte-principal);
+
 
 }
 
-h1{
-    background-color: white;
-}
