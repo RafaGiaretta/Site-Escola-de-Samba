@@ -5,9 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>G.R.C.E - Mocidade Independente do Ribeiro</title>
     <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
+    <header class="cabecalho">
+        <div class="container">   
+            <input type="checkbox" id="menu" class="container_botao">
+            <label for="menu">
+            <span class="cabecalho--menu-hamburguer container_imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu_item">
+                    <a href="#" class="lista-menu_link" alt="Agenda">Agenda</a>
+                </li>
+                <li class="lista-menu_item">
+                    <a href="#" class="lista-menu_link" alt="Notícias">Notícias</a>
+                </li>
+                <li class="lista-menu_item">
+                    <a href="#" class="lista-menu_link" alt="Galeria">Galeria</a>
+                </li>
+                <li class="lista-menu_item">
+                    <a href="#" class="lista-menu_link" alt="Nossa História">Nossa História</a>
+                </li>
+            </ul>
+            <img src="img/emb-icone.ico" width="34px" alt="Logo da Escola" class="container_imagem">
+        </div>
+        <div class="container">
+            <a href="#"><img width="34px" src="img/sobre.svg" alt="Nossa História" class="container_imagem"></a>
+            <a href="#"><img  width="34px" src="img/compartilhado.svg" alt="Compartilhar Página" class="container_imagem"></a>
 
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner_titulo"> Que tal uma musica nossa para lhe acompanhar?</h2>
+        <p class="banner_texto">Clique no "Play" para ouvir!</p>
+        <div class="containe_player">
+            <div class="container_musica">
+                <div onmouseover="tocarAudio()"><img width="34px" src="/img/botao-play.svg" alt="Botão Iniciar Música"></div>
+            </div>
+            <div class="container_musica">   
+                <div onmouseover="pararAudio()"><img width="34px" src="/img/pausa.svg" alt="Botão Pausar Música"></div>            
+            </div>
+         </div>
+    </section>    
+    <section class="carrossel">
+        <h2 class="carrossel_titulo">Últimas Imagens</h2>
+<!-- Slider main container -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>         
+        <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="/img_teste/Desfiles.jpg" alt="Imagem da Galeria"></div>
+        <div class="swiper-slide"><img src="/img_teste/Encontros.jpg" alt="Imagem da Galeria"></div>
+        <div class="swiper-slide"><img src="/img_teste/Eventos.jpg" alt="Imagem da Galeria"></div>
+        <div class="swiper-slide"><img src="/img_teste/desfile.jpg" alt="Imagem da Galeria"></div>
+        <div class="swiper-slide"><img src="/img_teste/desfile2.jpg" alt="Imagem da Galeria"></div>
+        </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    
+    </div>        
+    </section>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,    
+        slidesPerView:2,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        }
+    });
+</script>
+<script src="js/script.js"></script>
 </body>
+
+
 </html>
