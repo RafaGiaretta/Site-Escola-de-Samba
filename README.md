@@ -57,6 +57,7 @@ Lista de tarefas:
 - [ ]   Desenvolver protótipo de página de Administrador;
 - [ ]   Alimentar páginas criadas com informações.
 
-<video alt="Vídeo de demonstração" width="320" height="240" autoplay muted >
-  <source src="/img_teste/demo.mp4" type="video/mp4">
-</video>
+
+![demo](https://github.com/RafaGiaretta/Site-Escola-de-Samba/blob/main/img_teste/demo.gif)
+
+
