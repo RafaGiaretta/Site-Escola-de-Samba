@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>G.R.C.E - Mocidade Independente do Ribeiro</title>
-    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
@@ -17,22 +16,30 @@
             </label>
             <ul class="lista-menu">
                 <li class="lista-menu_item">
-                    <a href="#" class="lista-menu_link" alt="Agenda">Agenda</a>
-                </li>
-                <li class="lista-menu_item">
-                    <a href="#" class="lista-menu_link" alt="Notícias">Notícias</a>
-                </li>
-                <li class="lista-menu_item">
                     <a href="#" class="lista-menu_link" alt="Galeria">Galeria</a>
                 </li>
                 <li class="lista-menu_item">
-                    <a href="#" class="lista-menu_link" alt="Nossa História">Nossa História</a>
+                    <a href="#" class="lista-menu_link" alt="Resumo Nossa Historia">Nossa História</a>
+                </li>
+                <li class="lista-menu_item">
+                    <a href="#" class="lista-menu_link" alt="Memórias do nosso Samba">Memórias do nosso Samba</a>
+                </li>
+                <li class="lista-menu_item">
+                    <a href="#" class="lista-menu_link" alt="Compositores e Intérpretes">Compositores e Intérpretes</a>
                 </li>
             </ul>
-            <img src="img/emb-icone.ico" width="34px" alt="Logo da Escola" class="container_imagem">
+            <img src="img/emb-icone.ico"  alt="Logo da Escola" class="container_imagem container_imagem-logo">
+            <h1 class="container_titulo"><b class="container_titulo-negrito">G.R.C.E </b>- Mocidade Independente do Ribeiro</h1>
         </div>
+        <ul class="opcoes">
+            <li class="opcoes_item"><a href="#" class="opcoes_link">Galeria</a></li>
+            <li class="opcoes_item"><a href="#" class="opcoes_link">Nossa Historia</a></li>
+            <li class="opcoes_item"><a href="#" class="opcoes_link">Memórias do Nosso Samba</a></li>
+            <li class="opcoes_item"><a href="#" class="opcoes_link">Compositores e Intérpretes</a></li>   
+        </ul>
+
         <div class="container">
-            <a href="#"><img width="34px" src="img/sobre.svg" alt="Nossa História" class="container_imagem"></a>
+            <a href="#"><img width="34px" src="img/sobre.svg" alt="Nossa História" class="container_imagem container_imagem-transparente"></a>
             <a href="#"><img  width="34px" src="img/compartilhado.svg" alt="Compartilhar Página" class="container_imagem"></a>
 
         </div>
@@ -40,48 +47,103 @@
     <section class="banner">
         <h2 class="banner_titulo"> Que tal uma musica nossa para lhe acompanhar?</h2>
         <p class="banner_texto">Clique no "Play" para ouvir!</p>
-        <div class="containe_player">
+        <div class="container_player">
             <div class="container_musica">
-                <div onmouseover="tocarAudio()"><img width="34px" src="/img/botao-play.svg" alt="Botão Iniciar Música"></div>
-            </div>
+                <div onclick="tocarAudio()"><img width="34px" src="/img/botao-play.svg" alt="Botão Iniciar Música"></div>
+            </div>        
             <div class="container_musica">   
-                <div onmouseover="pararAudio()"><img width="34px" src="/img/pausa.svg" alt="Botão Pausar Música"></div>            
+                <div onclick="pararAudio()"><img width="34px" src="/img/pausa.svg" alt="Botão Pausar Música"></div>            
             </div>
+            <p class="autor_musica_banner">Autor: Nome do Autor </p>
+            <p class="autor_musica_banner">Música: Nome da Música</p>    
          </div>
     </section>    
     <section class="carrossel">
         <h2 class="carrossel_titulo">Últimas Imagens</h2>
-<!-- Slider main container -->
-    <div class="swiper">
-        <!-- Additional required wrapper -->
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>         
-        <div class="swiper-wrapper">
-        <!-- Slides -->
-        <div class="swiper-slide"><img src="/img_teste/Desfiles.jpg" alt="Imagem da Galeria"></div>
-        <div class="swiper-slide"><img src="/img_teste/Encontros.jpg" alt="Imagem da Galeria"></div>
-        <div class="swiper-slide"><img src="/img_teste/Eventos.jpg" alt="Imagem da Galeria"></div>
-        <div class="swiper-slide"><img src="/img_teste/desfile.jpg" alt="Imagem da Galeria"></div>
-        <div class="swiper-slide"><img src="/img_teste/desfile2.jpg" alt="Imagem da Galeria"></div>
-        </div>
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-    
-    </div>        
+    <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->  
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>                       
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>         
+            <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="/img_teste/feed_galeria1.jpg" alt="Imagem da Galeria"></div>
+                    <div class="swiper-slide"><img src="/img_teste/feed_galeria4.jpg" alt="Imagem da Galeria"></div>
+                    <div class="swiper-slide"><img src="/img_teste/feed_galeria5.jpg" alt="Imagem da Galeria"></div>
+                    <div class="swiper-slide"><img src="/img_teste/feed_galeria6.jpg" alt="Imagem da Galeria"></div>
+                    <div class="swiper-slide"><img src="/img_teste/feed_galeria3.jpg" alt="Imagem da Galeria"></div>
+            </div>        
+        </div>        
     </section>
+    <section class="historia">
+        <!-- 1ª linha -->
+        <div class="card_historia">
+            <!--1ª Coluna -->
+            <div class="descricao">
+                <h3 class="descricao_titulo">Nossa História</h3>
+                <p class="descricao_texto">O Grêmio Recreativo Cultural Escola (G.R.C.E.) de Samba Mocidade Independente do Ribeiro, foi fundado em 1977, no bairro do Ribeiro, em Lins São Paulo, por um grupo de amigos simpatizantes do samba. Desfilou pela primeira vez em 1977, chegando a descer na avenida em alguns desfiles com aproximadamente 500 componentes...</p>
+            </div>
+            <!--2ª Coluna -->
+            <img src="/img/Lins.svg" alt="Imagem da cidade de Lins em um recorte de Jornal" class="descricao_imagem">
+         </div>
+         <div class="saiba-mais">
+            <a href="#" class="botao_ancora">Continuar lendo...</a>
+         </div>
 
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel_titulo">Memórias do Nosso Samba</h2>
+    <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->   
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>             
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>         
+            <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="/img_teste/desfile.jpg" alt="Imagem da Galeria"></div>
+                    <div class="swiper-slide"><img src="/img_teste/desfile2.jpg" alt="Imagem da Galeria"></div>
+                    <div class="swiper-slide"><img src="/img_teste/Desfiles.jpg" alt="Imagem da Galeria"></div>
+                    <div class="swiper-slide"><img src="/img_teste/Encontros.jpg" alt="Imagem da Galeria"></div>
+            </div>        
+        </div>        
+    </section>
+    <section class="compositores">
+        <h2 class="compositores_titulo">Composições e seus compositores</h2>
+        <ul class="compositores_lista">
+            <li class="topicos_itens">
+                <a href="#" class="topicos_link">NOME DA COMPOSIÇÃO 1</a>
+            </li>
+            <li class="topicos_itens">
+                <a href="#" class="topicos_link">NOME DA COMPOSIÇÃO 2</a>
+            </li>
+            <li class="topicos_itens">
+                <a href="#" class="topicos_link">NOME DA COMPOSIÇÃO 3</a>
+            </li>
+            <li class="topicos_itens">
+                <a href="#" class="topicos_link">NOME DA COMPOSIÇÃO 4</a>
+            </li>
+            <li class="topicos_itens">
+                <a href="#" class="topicos_link">NOME DA COMPOSIÇÃO 5</a>
+            </li>
+        </ul>
+    </section>
+<hr/>
+<footer class="rodape">
+	<p>&copy; 2024 - Todos os direitos reservados</p>
+	<p>Entre em contato pelo e-mail: contato@exemplo.com</p>
+	<nav>
+		<ul>
+			<li><a href="#">Sobre nós</a></li>
+		</ul>
+	</nav>
+</footer>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script>
-    const swiper = new Swiper('.swiper', {
-        spaceBetween: 10,    
-        slidesPerView:2,
-        pagination: {
-            el: '.swiper-pagination',
-            type: 'bullets',
-        }
-    });
-</script>
 <script src="js/script.js"></script>
 </body>
 
