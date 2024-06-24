@@ -16,9 +16,27 @@
     margin: 1em 0;
 }
 
-.containe_player{
+.autor_musica_banner{
+    display: none;
+}
+
+.container_player{
     display: flex;
-    justify-content: space-around ;
+    justify-content:center ;
     align-items: center;
-    position:relative;
+}
+
+
+@media screen and (min-width: 1024px){
+
+    .banner_titulo{
+        font-size: 36px;
+    }
+    .container_player{
+        padding: 2em;
+
+    }
+    .autor_musica_banner{
+        display: block;
+    }
 }

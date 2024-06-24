@@ -3,11 +3,16 @@
 @import url("/styles/header.css");
 @import url("/styles/banner.css");
 @import url("/styles/carrossel.css");
+@import url("/styles/reset.css");
+@import url("/styles/rodape.css");
+@import url("/styles/historia.css");
+@import url("/styles/compositores.css");
 
 
 :root{
 
     --branco: #ffffff;
+    --preto: #000000;
     --cor-de-fundo:  #E2EFF4;
     --cor-de-fundo-secundaria: hsla(197, 72%, 25%, 1) ;
     --cor-de-titulo: #12556F;
