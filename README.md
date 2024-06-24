@@ -57,5 +57,6 @@ Lista de tarefas:
 - [ ]   Desenvolver protótipo de página de Administrador;
 - [ ]   Alimentar páginas criadas com informações.
 
-
-<img  alt="GIF de demonstração" src="/img_teste/demo.gif" >
+<video alt="Vídeo de demonstração" width="320" height="240" autoplay muted >
+  <source src="/img_teste/demo.mp4" type="video/mp4">
+</video>
